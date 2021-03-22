@@ -2,9 +2,10 @@
 Author: Jerome Simmons
 
 ## Overview of the Analysis
-In this assignment, we analyzed amazon product review data using PySpark to create custom tables in PostgreSQL. We also analyzed product rating data to determine if paid reviews are biased. For the amazon product reviews, I chose pet products.
+In this assignment, we analyzed Pet Product review data using PySpark. We analzyed paid reviews as well as non-paid reviews in order to determine if there was any bias between the two datasets. In order to determine bias, we reviewed the percentage of five star reviews from paid and unpaid review data.
 
 ## Results
+The paid base was significantly smaller than the unpaid base. Nevertheless, the unpaid reviews tended to be more favorable (more 5-star reviews) than paid reviews.
 
 How many Vine reviews & non-Vine reviews were there?
 * There were 170 paid ("vine") reviews and 37,790 unpaid ("non-vine") reviews
