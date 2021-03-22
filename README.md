@@ -7,14 +7,14 @@ In this assignment, we analyzed Pet Product review data using PySpark. We analzy
 ## Results
 The paid base was significantly smaller than the unpaid base. Nevertheless, the unpaid reviews tended to be more favorable (more 5-star reviews) than paid reviews.
 
-How many Vine reviews & non-Vine reviews were there?
+#### How many Vine reviews & non-Vine reviews were there?
 * There were 170 paid ("vine") reviews and 37,790 unpaid ("non-vine") reviews
 
-How many Vine reviews were 5 stars? How many non-Vine reviews were 5-stars?
+#### How many Vine reviews were 5 stars? How many non-Vine reviews were 5-stars?
 * There were 65 paid 5-star ("vine") reviews and 20,605 unpaid 5-star ("non-vine") reviews.
 ![Images/Review_Totals.png](Images/Review_Totals.png)
 
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5-stars?
+#### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5-stars?
 * 38.24% of all paid ("vine") reviews were awarded 5-stars.
 * 54.53% of all unpaid ("non-vine") reviews were awarded 5-stars
 ![Images/Review_Percentages.png](Images/Review_Percentages.png)
